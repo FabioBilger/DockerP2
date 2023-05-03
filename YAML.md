@@ -29,7 +29,7 @@ Mit "image:" wird das Standard Image angegeben. Hier ist es das Image "Wordpress
   links:
    - mariadb:mysql
  ```
-Mit "links:" können zwei Container miteinander verlinkt werden. Wenn man dieses Kommando benutzt, dann wird der Wert also das was miteinander verlinkt wird, unterhalb und einmal eingerückt mit einem " - " (also einer Auflistung) definiert.
+Das Kommando oder besser gesagt der "Key" kann benutzt werden um einen Alias zu erstellen, also in diesm Beispiel, kann der Service von mariadb, als mariadb oder mysql angesprochen werden.
 
 
 ### environment:
